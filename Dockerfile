@@ -1,7 +1,5 @@
 FROM alpine:3.5
 
-WORKDIR /tests
-
 RUN apk --no-cache add \
         bash \
         curl \
