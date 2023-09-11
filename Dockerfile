@@ -7,7 +7,8 @@ RUN apk --no-cache add \
         unzip \
         tar \
         gzip \ 
-        jq
+        jq \
+        grep
 
 ENV BATS_VERSION "1.10.0"
 RUN curl -sSL https://github.com/bats-core/bats-core/archive/v$BATS_VERSION.tar.gz -o /tmp/bats.tgz \
