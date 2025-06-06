@@ -8,6 +8,7 @@ RUN apk --no-cache add \
         tar \
         gzip \ 
         jq \
+        yq \
         grep
 
 ENV BATS_VERSION "1.2.1"
